@@ -1,9 +1,7 @@
----
-title: "Code Book"
-output: html_document
----
-> The following is describing variables definition and how they were measure based on
-the README.txt file in UCI Machine Learning Repository website (data set which contains all file is [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), and the only difference is that I took the mean of all observations in the data set grouped by subject and activity.
+###GCD_CourseProject
+
+> __The following is describing variables definition and how they were measure based on
+the README.txt file in UCI Machine Learning Repository website (data set which contains all file is [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), and the only difference is that I took the mean of all observations in the data set grouped by subject and activity.__
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
